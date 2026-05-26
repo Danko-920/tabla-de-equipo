@@ -1,0 +1,65 @@
+@media screen and (max-width: 500px)
+{
+    body
+    {
+        background-color: gray;
+    }
+}
+
+*{
+    font-family: cursive;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(172, 67, 88);
+}
+
+table, th, td{
+    position: relative;
+    border: 4px solid blue ;
+    border-style: dashed;
+}
+
+thead{
+    background-color: beige;
+}
+
+#etiqueta{
+
+    font-size: 15px;
+    display: inline-block;
+    background-color: rgb(224, 224, 98);
+    position: fixed;
+    top: 550px;
+    right: 7px;
+}
+
+#liz{
+    background-color: rgb(182, 63, 182);
+}
+
+#liz:hover{
+    background-color: black;
+    color: rgb(182, 63, 182);
+}
+
+#danko{
+    background-color: rgb(37, 167, 37);
+}
+
+#danko:hover{
+    background-color: black;
+    color: rgb(37, 167, 37);
+}
+
+#gael{
+    background-color: black;
+    color: white;
+}
+
+#gael:hover{
+    background-color: white;
+    color:black;
+}
