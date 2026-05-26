@@ -1,0 +1,91 @@
+@media (max-width: 500px){
+    body {
+        background-color: rgb(50,50,50);
+        h1 {
+            color: white;
+        }
+        caption {
+            color: white;
+        }
+    }
+}
+font *{
+    font-family: times, serif;
+}
+h1{
+    position: relative;
+    top: 20px;
+}
+table, th, td{
+    position: relative;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+thead {
+    background-color: gray;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Etiqueta {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    border-color: black;
+    background-color: yellow;
+    position: fixed;
+    top: -30px;
+    right: 0px;
+    z-index: 1000;
+}
+.Nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+.Color {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Luis
+{
+    background-color: red;
+}
+#Luis:hover{
+    background-color: black;
+    color: red;
+}
+#Dante
+{
+    background-color: blue;
+    color: white;
+}
+#Dante:hover{
+    background-color: white;
+    color: blue;
+}
+#Fátima
+{
+    background-color: purple;
+    color: white;
+}
+#Fátima:hover{
+    background-color: white;
+    color: purple;
+}
+#Viridiana
+{
+    background-color: blue;
+    color: white;
+}
+#Viridiana:hover{
+    background-color: white;
+    color: blue;
+}
+#Gerardo
+{
+    background-color: orange;
+}
+#Gerardo:hover{
+    background-color: black;
+    color: orange;
+}
